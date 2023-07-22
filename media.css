@@ -1,0 +1,383 @@
+@media only screen and (min-width:200px) and (max-width:912px){
+
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .slide1{
+        background-size: cover;
+        min-height: 1px;
+    }
+    .slide1 .img1{
+        position: relative;
+        height: 30px;
+        width: 70px;
+        top: 10px;
+        left: 20px;
+    }
+    .slide1 .img1 img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .slide1 .con1{
+        position: relative;
+        top: 20px;
+        left: 5%;
+    }
+    
+    .slide1 .con1 h1{
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bolder;
+    }
+    
+    .slide1 .con1 .btn1{
+        padding: 1px 2px;
+        margin-left: 2%;
+        border: none;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+    .slide1 .con1 .btn1:hover{
+        background-color: #ff0000;
+        color: white;
+        transition: 1s;
+    }
+    
+    .slide1 .arrow .btn-left i{
+        margin-left: 240px;
+        height: 25px;
+        width: 25px;
+        padding: 3px;
+        font-size: 20px;
+        border-radius: 50%;
+        justify-content: center;
+        background-color: white;
+        color: black;
+    }
+    
+    .slide1 .arrow .btn-left i:hover{
+        background-color: #ff0000;
+        color: #ffffff;
+    }
+    
+    .slide1 .arrow .btn-right i{
+        margin-left: 230px;
+        height: 25px;
+        width: 25px;
+        padding: 3px;
+        font-size: 20px;
+        border-radius: 50%;
+        justify-content: center;
+        background-color: white;
+        color: black;
+    }
+    
+    .slide1 .arrow .btn-right i:hover{
+        background-color: #ff0000;
+        color: #ffffff;
+    }
+    
+
+    .carousel-wrapper .btn {
+        font-size: 1rem;
+        background: white;
+        color: black;
+        
+        border-radius: 50%;
+        border: none;
+        margin: 10px;
+        position: absolute;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      .carousel-wrapper .btn:hover {
+        background: red;
+        color: white;
+      }
+
+      .btn.previous {
+        top: 70%;
+        left: 40%;
+      }
+      .btn.next {
+        top: 70%;
+        right: 35%;
+      }
+    /* header start */
+    header{
+        height: 80px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: #021626;
+    }
+    /* .navlinks{
+        position: relative;
+        display: block;
+        height: 25rem;
+        width: 90%;
+        left: 5%;
+        top: 80px;
+        background-color: black;
+    }
+    header .nav .navlinks ul{
+        position: relative;
+        display: block;
+        
+        
+    }
+    header .nav .navlinks a{
+        position: relative;
+        right: 55px;
+        line-height: 1.5;
+    }
+    .navlinks{
+        display: none;
+    } */
+    .header-content ul{
+        position: relative;
+        top: -160%;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 120px;
+        transform: 2s;
+    }
+    .header-content li a{
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: 40px;
+        line-height: 2;
+        background-color: #ff0000b9;
+        float: left;
+        text-align: center;
+    }
+    .header-content ul li:hover a{
+        color: white;
+    }
+    ul.slide{
+        top: 0;
+        transition: 2s;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        left: 230px;
+        top: 10px;
+        
+    }
+    .menu i{
+        color: white;
+        font-size: 20px;
+    }
+    .menu img{
+        height: 70px;
+        width: 100px;
+        position: relative;
+        right: 200px;
+        bottom: 10px;
+    }
+    /* header end */
+    
+    /* about start */
+    .About-container{
+        height: 42rem;
+    }
+    .About-container .about1{
+        height: 42rem;
+        width: 100%;
+    }
+    .About-container .about1 img{
+        height: 42rem;
+        width: 100%;
+    }
+    .title1{
+        position: relative;
+        left: 30%;
+        top: 50rem;
+        width: 33%;
+        height: 60px;
+        color: white;
+        padding-top: 10px;
+        text-align: center;
+        background-color: #021626;
+    }
+    .about1-img{
+        position: absolute;
+        height: 35%;
+        width: 70%;
+    }
+    .about1-img img{
+        height: 80%;
+        width: 70%;
+    }
+    .about1-p{
+        position: relative;
+        top: 50%;
+        width: 80%;
+        left: 10%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .about1-btn{
+        padding: 5px 10px;
+        border: none;
+        font-size: small;
+        font-weight: bolder;
+        border-radius: 5px;
+        position: relative;
+        top: 50%;
+        margin-left: 38%;
+        background-color: black;
+        color: white;
+    }
+    .about1-btn:hover{
+        background-color: #ff0000;
+        color: white;
+        transition: 1s;
+    }
+    /* about end */
+    
+    /* couple start */
+    .couple1 h3, h1, p{
+        margin-top: -50px;
+        padding-left: 10px;
+    }
+    .couple1-btn{
+        padding: 5px 10px;
+        border: none;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-top: -1px;
+        margin-left: 10px;
+        background-color: white;
+        color: black;
+    }
+    .couple1-btn:hover{
+        background-color: #ff0000;
+        color: white;
+        transition: 1s;
+    }
+    /* couple end */
+    
+    /* gallery start */
+    .title2{
+        position: relative;
+        left: 20%;
+        top: 15px;
+        width: 60%;
+        height: 80%;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        background-color: #021626;
+    }
+    .gallery-img1{
+        margin-left: 15px;
+    }
+    .cardes1 .gallery-hov1{
+        position: absolute;
+        height: 795px;
+        width: 370px;
+        top: 122rem;
+        left: 27px;
+        display: none;
+    }
+    .gallery-img2{
+        margin-left: 15px;
+    }
+    .gallery-hov2{
+        position: absolute;
+        height: 398px;
+        width: 370px;
+        top: 172.5rem;
+        left: 27px;
+        display: none;
+    }
+    .gallery-img3{
+        margin-left: 15px;
+    }
+    .gallery-hov3{
+        position: absolute;
+        height: 643.5px;
+        width: 370px;
+        top: 198.3rem;
+        left: 27px;
+        display: none;
+    }
+    .gallery-img4{
+        margin-left: 15px;
+    }
+    .gallery-hov4{
+        position: absolute;
+        height: 250px;
+        width: 370px;
+        top: 239.5rem;
+        left: 27px;
+        display: none;
+    }
+    .gallery-img5{
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .gallery-hov5{
+        position: absolute;
+        height: 643px;
+        width: 370px;
+        top: 256rem;
+        left: 27px;
+        display: none;
+    }
+    .gallery-img6{
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .gallery-hov6{
+        position: absolute;
+        height: 395px;
+        width: 370px;
+        top: 297rem;
+        left: 27px;
+        display: none;
+    }
+    
+    /* gallery end */
+    
+    /* contact start */
+    .title3{
+        color: white;
+        margin-left: 30%;
+    }
+
+    /* contact end */
+    
+    /* footer start */
+    .footer{
+        height: 62rem;
+        background-color: #021626;
+    }
+    .footer-sub{
+        position: relative;
+        top: 70px;
+    }
+    /* .footer-con p{
+        position: relative;
+        left: 1px;
+    } */
+    .footer p{
+        position: relative;
+        width: 100%;
+        left: 10px;
+    }
+    /* footer end */
+    
+    }
